@@ -1,0 +1,46 @@
+@"
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Build
+*.apk
+*.aab
+*.unitypackage
+
+# Other
+sysinfo.txt
+crashlytics-build.properties
+/Assets/AssetStoreTools*
+/Assets/TextMesh Pro/
+/ProjectSettings/ProjectSettings.asset
+/UserSettings/EditorUserSettings.asset
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
